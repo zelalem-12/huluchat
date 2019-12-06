@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+#stasticsContainer > h1{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    text-decoration: #29303D;
+    font-weight: lighter;
+    margin-bottom: 100px;
+    }
+
+  #stasticsContainer{
+      padding-top: 2em;
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 200px;
+  }
+  .stat {
+    margin: 0 auto 6em;
+    width: 80%;
+    }
+    .stat h1{
+      font-size: 3em;
+      font-weight: bold;
+      color: darkblue
+    }
+    .stat h1 p{
+      padding: 0;
+      margin: 0
+    }
+    ul.stat li{
+        float: left;
+      display: inline;
+      margin: 0 auto;
+      text-align: center;
+      align-content: center;
+      
+      list-style-type: none;
+      margin: 0 5em;
+    }
+    
