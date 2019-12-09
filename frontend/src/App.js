@@ -16,6 +16,7 @@ import TermsAndService from './components/TermsAndServices';
 import Blogs from './components/Blogs';
 import footer from './components/Footer';
 import Footer from "./components/Footer";
+import Admin from "./components/Admin";
 
 
 class App extends Component {
@@ -40,6 +41,7 @@ class App extends Component {
        <Route path="/statistics" component={Statistics} />
        <Route path='/tot' component={TermsAndService}/>
        <Route path='/blogs' component={Blogs}/>
+       <Route path ='/admin' component={Admin}/>
     </div>
      <Footer/>    
       </BrowserRouter>
