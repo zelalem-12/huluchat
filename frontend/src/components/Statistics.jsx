@@ -38,26 +38,28 @@ class Statistics extends Component {
       <React.Fragment>
 
       <div id="stasticsContainer">
-      <h1>Application Status</h1>
-           
       <ul className="stat">
       <li>
-      <h1>{statisticsData.downloads}</h1>
-      <p>Downloads</p>
+      <h2><i class="fa fa-cloud-download"></i></h2>
+      <h1>+ {statisticsData.downloads}</h1>
+      <p>DOWNLOADS</p>
       </li>
 
       <li>
-      <h1>{statisticsData.likes}</h1>
-      <p>Likes</p>
+     <h2><i class="fa fa-thumbs-up"></i></h2>
+      <h1>+ {statisticsData.likes}</h1>
+      <p>LIKES</p>
       </li>
 
       <li>
-      <h1>{statisticsData.reviews}</h1>
-      <p>Reviews</p>
+      <h2><i class="fa fa-star"></i></h2>
+      <h1>+ {statisticsData.reviews}</h1>
+      <p>REVIEWS</p>
       </li>
       <li>
+      <h2><i class="fa fa-cog"></i></h2>
       <h1>{statisticsData.verstion}</h1>
-      <p>Verstion</p>
+      <p>VERSION</p>
       </li>
       </ul>
       </div>

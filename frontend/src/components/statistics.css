@@ -1,37 +1,44 @@
 *{
     padding: 0;
     margin: 0;
-  }
-#stasticsContainer > h1{
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-    text-decoration: #29303D;
-    font-weight: lighter;
-    margin-bottom: 100px;
-    }
+}
 
   #stasticsContainer{
       padding-top: 2em;
-      width: 80%;
+      width: 90%;
       margin: 0 auto;
       margin-bottom: 200px;
   }
   .stat {
     margin: 0 auto 6em;
-    width: 80%;
+    width: 100%;
+    }
+    .stat h2:hover{
+      color: #0088cc;
+
+    }
+    .stat h2{
+      background-color: white;
+      font-size: 5em;
+      color: #ccc;
+      font-weight: 100;
+    
+      font-weight: 100;
+      margin-bottom: -20PX;;
     }
     .stat h1{
-      font-size: 3em;
+      font-size: 70px;
       font-weight: bold;
-      color: darkblue
+      color: black;
+      margin-bottom: -5px;
     }
-    .stat h1 p{
+    .stat h1+ p{
       padding: 0;
-      margin: 0
+      margin: 0;
+      margin-left: 39px;
     }
     ul.stat li{
-        float: left;
+       float: left;
       display: inline;
       margin: 0 auto;
       text-align: center;
