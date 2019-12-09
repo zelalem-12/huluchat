@@ -15,17 +15,17 @@ class Home extends Component {
             <div class="tl_main_wrap">
     <div class="tl_main_head">
       <div class="tl_main_side_blog"><div class="side_blog_wrap">
-    <a href="/blog" class="side_blog_header">Recent News</a>
+    <a href="/blogs" class="side_blog_header">Recent News</a>
     <div class="side_blog_entries">
-      <a href="/blog/scheduled-reminders-themes" class="side_blog_entry">
-    <div class="side_blog_date">Sep 5</div>
-    <div class="side_blog_title">Scheduled Messages, Reminders, Custom Cloud Themes and More Privacy</div>
-  </a><a href="/blog/6-years" class="side_blog_entry">
-    <div class="side_blog_date">Aug 15</div>
-    <div class="side_blog_title">Celebrating 6 Years of Telegram</div>
-  </a><a href="/blog/silent-messages-slow-mode" class="side_blog_entry">
-    <div class="side_blog_date">Aug 9</div>
-    <div class="side_blog_title">Silent Messages, Slow Mode, Admin Titles and More</div>
+      <a href="/blogs/#q-what-is-telegram-what-do-i-do-here" class="side_blog_entry">
+    <div class="side_blog_date">Nov 29</div>
+    <div class="side_blog_title">What is Telegram?</div>
+  </a><a href="/blogs/#q-how-is-telegram-different-from-whatsapp" class="side_blog_entry">
+    <div class="side_blog_date">Dec 8</div>
+    <div class="side_blog_title">How is Telegram different from WhatsApp?</div>
+  </a><a href="/blogs/#q-can-i-delete-my-messages" class="side_blog_entry">
+    <div class="side_blog_date">Dec 9</div>
+    <div class="side_blog_title">Can I delete my messages?</div>
   </a>
     </div>
   </div></div>

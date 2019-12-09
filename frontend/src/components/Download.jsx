@@ -22,20 +22,6 @@ class DownloadHulugram extends React.Component {
 		// Catch any errors we hit and update the app
 		.catch(error => console.log(error)); 
 		}
-	downloadHulugramApp() {
-		axios({
-			url: 'http://localhost:5000/static/example.pdf',
-			method: 'GET',
-			responseType: 'blob', // important
-		  }).then((response) => {
-			const url = window.URL.createObjectURL(new Blob([response.data]));
-			const link = document.createElement('a');
-			link.href = url;
-			link.setAttribute('download', 'file.pdf');
-			document.body.appendChild(link);
-			link.click();
-		  });
-	 }
 
 	componentDidMount() { 
 		this.fetchStatisticsData();
@@ -43,23 +29,31 @@ class DownloadHulugram extends React.Component {
 	   }
 	render() {
 		return (
+			<React.Fragment>
 			<div id="downloadContainer">
 				<h1>Downloads</h1>
-                <p>Latest ሁሉግራም Version: <b>{this.state.appVersoin}</b> </p>
-				<h3>Download <strong>ሁሉግራም</strong> android applicaiton and start enjoying your life</h3>
-				<div>
-				<button className="stable" onClick={()=>this.downloadHulugramApp()}>
-				<h2> Stable Version</h2>
-				<p>Recommended For Most Users</p>
-				</button>
-				</div>
-				<div>
-				<button className="current" onClick={()=>this.downloadHulugramApp()}>
-				<h2> Current Version</h2>
-				<p>Latest Features</p>
-				</button>
-				</div>
+                <p>Latest Hulugram Version: <b>{this.state.appVersoin}</b> </p>
+				<h3>Download <b><strong>Hulugram</strong></b> android applicaiton and start enjoying your life</h3>
+			<ul className="stat">
+			<li>
+			<h3>Stable Verstion</h3>
+			<p>Recommondded for most users</p>
+			<a href='/faq'>
+			<h2><i class="fa fa-cloud-download"></i></h2>
+			</a>
+			</li>
+			<li>
+			<h3>Current Verstion</h3>
+			<p>Recommondded for advanced users</p>
+			<a href='/statistics'>
+			<h2><i class="fa fa-cloud-download"></i></h2>
+			</a>
+			</li>
+	  
+		
+			</ul>
 			</div>
+			</React.Fragment>
 		)
 	}
 
