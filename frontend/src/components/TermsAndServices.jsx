@@ -4,10 +4,11 @@ import './sot.css';
   render() {
     return (
       <React.Fragment>
-      <div class="container clearfix tl_page_container ">
+  <div id="fb-root"></div>
+  <div class="tl_page_wrap">
+    <div class="container clearfix tl_page_container ">
       <div class="tl_page">
-        
-      <div id="dev_page_content_wrap" class=" ">
+        <div id="dev_page_content_wrap" class=" ">
 <div class="dev_page_bread_crumbs"></div>
 <h1 id="dev_page_title" dir="auto">Terms of Service</h1>
 
@@ -22,9 +23,13 @@ import './sot.css';
 <p>Citizens of EU countries and the United Kingdom must be at least 16 years old to sign up.</p>
 </blockquote>
 </div>
+
 </div>
-     </div>
+        
+      </div>
     </div>
+  </div>
+  
       </React.Fragment>
     );
   }

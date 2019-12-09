@@ -4,13 +4,12 @@ import React, { Component } from "react";
 class Faq extends Component {
   render() {
 
-    // style="max-width: 480px; margin: 20px auto 20px;"
-    // style="max-width: 480px;"
     return (
      <React.Fragment>
-     <div class="hulugram_page_wrap">
-       <div class="container clearfix hulugram_page_container ">
-         <div class="hulugram_page">
+     <div id="fb-root"></div>
+     <div class="tl_page_wrap">
+       <div class="container clearfix tl_page_container ">
+         <div class="tl_page">
            <div id="dev_page_content_wrap" class=" dev_faq_page">
 
            <h1 id="dev_page_title" dir="auto">Hulugram FAQ</h1>

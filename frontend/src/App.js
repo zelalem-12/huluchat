@@ -29,9 +29,7 @@ class App extends Component {
         <li><NavLink to="/images">Image</NavLink></li>
         <li><NavLink to="/download">Download</NavLink></li>
         <li><NavLink to="/statistics">Statistics</NavLink></li>
-        <li><NavLink to="/termsAndService">Terms & Services</NavLink></li>
-        <li className ="instagram"><NavLink to="/download"><i className="icon icon-twitter"></i>Instagram</NavLink></li>
-        
+        <li><NavLink to="/tot">Terms of Services</NavLink></li>   
       </ul>
       </div> 
       <div className="content">
@@ -40,7 +38,7 @@ class App extends Component {
        <Route path="/images" component={Image} />
        <Route path="/download" component={Download} />
        <Route path="/statistics" component={Statistics} />
-       <Route path='/termsAndService' component={TermsAndService}/>
+       <Route path='/tot' component={TermsAndService}/>
        <Route path='/blogs' component={Blogs}/>
     </div>
      <Footer/>    
