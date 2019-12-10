@@ -40,49 +40,26 @@ class Home extends Component {
   
     <div class="tl_main_download_mobile clearfix">
       <div class="tl_main_download_mobile clearfix">
-    <a href="/dl/android" class="tl_main_download_link tl_main_download_link_android" target="_blank" data-track="AppDownload/Android" onclick="trackDlClick(this, event)">
-      <i class="icon icon-android"></i>Telegram for <strong>Android</strong>
-    </a><a href="/dl/ios" class="tl_main_download_link tl_main_download_link_ios" target="_blank" data-track="AppDownload/iOS" onclick="trackDlClick(this, event)">
-      <i class="icon icon-ios"></i>Telegram for <strong>iPhone</strong> / <strong>iPad</strong>
-    </a><a href="/dl/wp" class="tl_main_download_link tl_main_download_link_wp" target="_blank" data-track="AppDownload/WP" onclick="trackDlClick(this, event)">
-      <i class="icon icon-wp"></i>Telegram for <strong>WP</strong>
+    <a href="https://play.google.com/store/apps/details?id=org.telegram.messenger" class="tl_main_download_link tl_main_download_link_android" target="_blank" data-track="AppDownload/Android" onclick="trackDlClick(this, event)">
+    <i class="fa fa-android">  </i>Hulugram for <strong>Android</strong>
+    </a><a href="https://play.google.com/store/apps/details?id=org.telegram.messenger" class="tl_main_download_link tl_main_download_link_ios" target="_blank" data-track="AppDownload/iOS" onclick="trackDlClick(this, event)">
+    <i class="fa fa-apple">  </i>Hulugram for <strong>iPhone</strong> 
+    </a><a href="https://play.google.com/store/apps/details?id=org.telegram.messenger" class="tl_main_download_link tl_main_download_link_wp" target="_blank" data-track="AppDownload/WP" onclick="trackDlClick(this, event)">
+    <i class="fa fa-windows">  </i>Hulugram for <strong>desktop</strong>
     </a>
-    <a href="//desktop.telegram.org/" class="tl_main_download_link tl_main_download_link_tdesktop" data-track="AppDownload/TDesktop" onclick="trackDlClick(this, event)">
-    Telegram for <strong>Windows / Mac / Linux</strong>
-  </a>
-  
-  <a class="tl_main_download_more_btn" href="/apps">Browse more Telegram apps<i class="icon icon-arrow-more"></i></a>
   </div>
-    </div>
-  
-    <div class="tl_main_download_desktop_section">
-      <h3 class="tl_main_download_desktop_header">A native app for every platform</h3>
-  
-      <div class="tl_main_download_desktop_wrap1">
-        <div class="tl_main_download_desktop_wrap">
-          <div class="tl_main_download_desktop clearfix">
-            <div class="tl_main_download_desktop_links clearfix">
-              <a href="//desktop.telegram.org/" class="tl_main_download_desktop_link tl_main_download_link_td" data-track="DesktopDownload/TDesktop" onclick="trackDlClick(this, event)">
-                Telegram&nbsp;for <strong>PC/Mac/Linux</strong>
-              </a><a href="//macos.telegram.org/" class="tl_main_download_desktop_link tl_main_download_link_osx" data-track="DesktopDownload/OSX" onclick="trackDlClick(this, event)">
-                Telegram&nbsp;for <strong>macOS</strong>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   
     <div class="tl_main_body">
     <a name="why-switch-to-Telegram"></a>
-    <h3 class="tl_main_body_header">Why switch to Telegram?</h3>
+    <h3 class="tl_main_body_header">Why switch to Hulugram?</h3>
   
     <div class="tl_main_cards clearfix">
       <div class="tl_main_card_cell">
         <div class="tl_main_card_wrap">
           <div class="tl_main_card tl_main_card_private"></div>
           <h3 class="tl_main_card_header">Private</h3>
-          <div class="tl_main_card_lead"><strong>Telegram</strong> messages are heavily
+          <div class="tl_main_card_lead"><strong>Hulugram</strong> messages are heavily
             encrypted and can self-destruct.</div>
         </div>
       </div>
@@ -91,7 +68,7 @@ class Home extends Component {
         <div class="tl_main_card_wrap">
           <div class="tl_main_card tl_main_card_cloud"></div>
           <h3 class="tl_main_card_header">Cloud-Based</h3>
-          <div class="tl_main_card_lead"><strong>Telegram</strong> lets you access your messages from multiple devices.</div>
+          <div class="tl_main_card_lead"><strong>Hulugram</strong> lets you access your messages from multiple devices.</div>
         </div>
       </div>
   
@@ -99,7 +76,7 @@ class Home extends Component {
         <div class="tl_main_card_wrap">
           <div class="tl_main_card tl_main_card_fast"></div>
           <h3 class="tl_main_card_header">Fast</h3>
-          <div class="tl_main_card_lead"><strong>Telegram</strong> delivers messages faster than any other application.</div>
+          <div class="tl_main_card_lead"><strong>Hulugram</strong> delivers messages faster than any other application.</div>
         </div>
       </div>
   
@@ -107,7 +84,7 @@ class Home extends Component {
         <div class="tl_main_card_wrap">
           <div class="tl_main_card tl_main_card_decentralized"></div>
           <h3 class="tl_main_card_header">Distributed</h3>
-          <div class="tl_main_card_lead"><strong>Telegram</strong> servers are spread worldwide for security and speed.</div>
+          <div class="tl_main_card_lead"><strong>Hulugram</strong> servers are spread worldwide for security and speed.</div>
         </div>
       </div>
   

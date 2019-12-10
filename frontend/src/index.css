@@ -625,7 +625,6 @@ img.tl_main_logo {
 .tl_main_logo_title_image {
   width: 144px;
   height: 36px;
-  background: url(../src/images/hulugram_sample.gif) 0 0 no-repeat; 
   margin: 18px auto 6px;
 }
 .tl_main_logo_lead {
@@ -695,22 +694,17 @@ img.tl_main_logo {
 .tl_main_download_link_android {
   width: 28.21%;
   min-width: 245px;
-   background: url(../src/images/device-2019-02-14-233916.png) 50% 0 no-repeat; 
+    background: url(../src/images/telegram_for_android.jfif) 50% 0 no-repeat;  
 }
 .tl_main_download_link_ios {
   width: 42.9961%;
   min-width: 350px;
-   background: url(../src/images/device-2019-02-14-233852.png) 50% 0 no-repeat; 
+   background: url(../src/images/telegram_for_ios.jfif) 50% 0 no-repeat;  
 }
 .tl_main_download_link_wp {
   width: 28.793774%;
   min-width: 245px;
-   background: url(../src/images/device-2019-02-14-233844.png) 50% 0 no-repeat; 
-}
-.tl_main_download_link_tdesktop {
-  display: none;
-  min-width: 320px;
-   background: url(../src/images/device-2019-02-14-233821.png) 50% 0 no-repeat; 
+    background: url(../src/images/telegram_for_desktop.jpg) 50% 0 no-repeat;  
 }
 
 
